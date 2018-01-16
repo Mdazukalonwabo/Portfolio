@@ -1,0 +1,582 @@
+/*website container given a width as well as an automated height*/
+.Container{
+  width: 100%;
+  height: auto;
+}
+/*ends*/
+
+/*navbar given a background color the bullets removed and text placed center, automated margin and padding removed and placed to the far right corner, its position is fixed, with a border radius, the list items given a font size with a margin and float to the left, line height included, the a href underliner removed and given a color black with a font family and a font weight, when active background-color changes as well as the color, and when it is hovered on */
+.navbar{
+  background-color: rgb(209, 190, 190) ;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 5px;
+  left: 65%;
+  padding: 0;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.navbar li{
+  background-color: rgb(234, 240, 249);
+  font-size: 25px;
+  margin: 5px;
+  line-height: inherit;
+  float: left;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.navbar li a:active{
+  background-color: rgb(53, 56, 61)
+  color:white;
+}
+
+.navbar li a:hover{
+  color:#d84949;
+}
+/*ends*/
+
+
+/*automated margin and padding removed, the class that given a width, min-height and a auto max-height with a background image that serves as profile image that  covers the entire area with no-repeat such that only one appears, main text placed in the center of its div in a h1 heading, given a font size, color, font family and height with a margin top/bottom and right/left, position given and opacity also set and the h1 given  mix blend-mode such that it camo's the background */
+.coverPage{
+  margin: 0px;
+  padding: 0px;
+}
+
+.profile_Image{
+  width: 100%;
+  min-height: 650px;
+  max-height: auto;
+  background-image: url("http://codespace.co.za/wp-content/uploads/2017/12/lonwabo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coverText{
+  text-align: center;
+  font-size: 25px;
+  color: rgba(229, 229, 229, .7);
+  font-family: 'Poiret One', cursive;
+  height: 100%;
+  margin: -450px 800px;
+  position: absolute;
+  opacity: .99;
+  margin-left: 40px;
+}
+
+.coverText h1{
+  mix-blend-mode: multiply;
+}
+/*ends*/
+
+/*the class given a grid that holds two columns anda font family that has a font size text palced in the center and margin to only the right/left with a height included, the class within the div has a padding to the left and position specified and margin given, 2nd class given a height and width as well as a display and floated to the left, the image within the div takes 100% of the div and height and has a padding to the left*/
+.aboutMe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 80px;
+  height: 400px;
+}
+
+.personal_statement{
+  padding-left: 400px;
+  position: absolute;
+  margin: 50px;
+}
+
+.intro_image{
+  width: 400px;
+  height: 350px;
+  display: block;
+  float: left;
+}
+
+.intro_image img{
+  width:100%;
+  height: 100%;
+  padding-top: 40px;
+}
+/*ends*/
+/*class given a height the div within made to a grid that contains 3cols and text placed in the center as well as given margin top/bottom and right/left with a font-size, the class within that div given a 2col grid and the images given a width, height and margin removed and padding to top included*/
+.Skills_obtained{
+  height: auto;
+}
+
+.experiences{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin: 30px 60px;
+  font-size: 20px;
+}
+
+.Educational_experiencese{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid grey;
+}
+
+.Educational_experiencese img{
+  width: 150px;
+  height: 100px;
+  margin: 0;
+  padding-top:40px;
+}
+/*ends*/
+/*class given a height*/
+.skills{
+  height: 300px;
+}
+/*ends*/
+/*class gievn a auto heigth and padding to the bottom, the class of the images floated and width, height with a margin to the left and opacity, on hover the opacity becomes solid*/
+.skillsSection{
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.skills_images{
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin-left: 60px;
+  opacity: 0.4;
+}
+
+.skills_images:hover{
+  transition: 2s linear;
+  opacity: 1;
+}
+/*ends*/
+/*automated padding and margin removed, width and heigth gievn as well as the text applied to the center and bacground color included, the details given a margin to the right/left as well as hieght and width*/
+.Contact{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  background-color: rgb(193, 137, 137);
+}
+
+.Contact_details{
+  margin: 0 120px;
+  height: 100%;
+  width: 85%;
+}
+/*ends*/
+/*social media class given a padding to the left and the icons within div given a width, height and margin all around*/
+.Social_media{
+  padding-left: 350px;
+}
+
+.Social_mediaIcons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px 15px 0 15px;
+  }
+/*ends*/
+
+/*the image in the contact form given a width, height and floated as well as filter also included*/
+#hire_profile{
+  width: 350px;
+  height: 350px;
+  float: left;
+  filter: grayscale(100%);
+  }
+/*ends*/
+/*id given a font family and maring to the irght/left, font family included and weight as well as line heighten */
+#motivational_text{
+  font-size: 20px;
+  margin: 10px 105px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  line-height: 30px;
+  }
+/*ends*/
+/*id given a height, width adn font size margin to the top/bottom and text placed to the center with a font family and weight included*/
+#Contact_details{
+  height: 100px;
+  width: 250px;
+  font-size: 25px;
+  margin: 5px 0;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 200;
+  }
+/*ends*/
+/*text placed in the center and given a height as well as color with font size and family included margin to the top/bottom and padding removed*/
+  h2, .Contact_details h4{
+   text-align: center;
+   height: 45px;
+   color: rgb(175, 70, 70);
+   font-size: 40px;
+   font-family: 'Permanent Marker', cursive;`
+   margin: 0px;
+   padding: 0;
+ }
+/*ends */
+/*back to top button given a positiona nd width as well as height*/
+ #back_to_top{
+     position: sticky;
+     width: 50px;
+     height: 50px;
+}
+/*ends*/
+@media only screen and (min-device-width: 0px)
+and (max-device-width: 480px){
+.navbar{
+  margin: 0;
+  left: 82.5%;
+  padding: 0;
+}
+
+.navbar li{
+  font-size: 35px;
+  margin-bottom: 10px;
+  float: none;
+}
+
+.navbar li a{
+  font-weight: 200;
+}
+
+.coverText{
+  text-align: center;
+  font-size: 25px;
+  height: 100%;
+  margin: -200px 80px;
+  position: absolute;
+}
+
+.coverText{
+  height: 100px;
+  margin-left: 40px;
+}
+
+.aboutMe{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-size: 35px;
+  margin: 0 60px;
+  min-height: 1000px;
+  max-height: 1200px;
+}
+
+.personal_statement{
+  float: left;
+  padding: 0;
+  margin: 450px 100px 0px 50px;
+}
+
+.intro_image{
+  width: 100%;
+  height: 70%;
+  display: block;
+  float: left;
+}
+
+.intro_image img{
+  width:100%;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.experiences{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  font-size: 35px;
+}
+
+.Educational_experiencese img{
+  width: 250px;
+  height: 150px;
+  margin: 10px 0;
+  padding-top:40px;
+}
+
+.skills{
+  height: 1500px;
+}
+
+.skillsSection{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.skills_images{
+  width: 350px;
+  height: 350px;
+  padding-left: 240px;
+  opacity: 0.4;
+  margin-bottom: 15px;
+}
+
+.skills_images:hover{
+  transition: 2s linear;
+  opacity: 1;
+}
+
+.Educational_experiencese{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#motivational_text{
+  font-size: 35px;
+  margin: 5px 105px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 250;
+  background-color: grey;
+  border-radius: 20px;
+  height: auto;
+  line-height: 35px;
+}
+
+#Contact_details{
+  font-size: 35px;
+}
+
+  h2, .Contact_details h4{
+    text-align: center;
+    color: rgb(175, 70, 70);
+    font-size: 45px;
+}
+
+  #hire_profile{
+    width: 250px;
+    height: 200px;
+
+  }
+
+  .Social_media{
+    padding-left: 0px;
+  }
+
+  .Social_mediaIcons{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px 15px 0 15px;
+    }
+
+    .Contact{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 650px;
+      text-align: center;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px)
+and (max-device-width: 1023px){
+/*navbar width made full width of the screen and margin, padding, top and left removed, the font size added and margin to the bottom add and float removed, font-weight included */
+  .navbar{
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+
+  .navbar li{
+    font-size: 35px;
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .navbar li a{
+    font-weight: 200;
+    padding-right: 00px;
+  }
+/*ends*/
+/*text on the main given a font-size and height as well as margin all around position given and padding to the left margin right included*/
+  .coverText{
+    font-size: 25px;
+    max-height: 100%;
+    margin: -200px 150px;
+    position: absolute;
+    padding-left: 20px;
+    min-height: 100px;
+    margin-left: 40px;
+  }
+  /*ends*/
+  /*class given a grid that contains 1 col and 2rows with a font family and font size, text placed in the center and margin right/left add*/
+  .aboutMe{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 60px;
+    min-height: 1000px;
+    max-height: 1200px;
+  }
+
+  .personal_statement{
+    float: left;
+    padding: 0;
+    margin: 450px 100px 0px 50px;
+  }
+
+  .intro_image{
+    width: 100%;
+    height: 70%;
+    display: block;
+    float: left;
+  }
+
+  .intro_image img{
+    width:100%;
+    height: 100%;
+    padding-top: 40px;
+  }
+
+  .Educational_experiencese{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #motivational_text{
+    font-size: 25px;
+    margin: 5px 55px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 250;
+  }
+
+  #Contact_details{
+    height: 100px;
+    width: 150px;
+    font-size: 25px;
+    margin: 5px 0;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 200;
+  }
+
+  h2, .Contact_details h4{
+   text-align: center;
+   color: rgb(175, 70, 70);
+   font-size: 25px;
+   padding-right: 80px;
+   margin-bottom: 50px 0;
+ }
+
+  #hire_profile{
+    width: 250px;
+    height: 250px;
+    float: none;
+    padding: 0;
+    }
+
+    .Social_media{
+      padding-left: 0px;
+    }
+
+    .Social_mediaIcons{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 5px 15px 0 15px;
+      }
+
+      .Contact{
+        height: 760px;
+      }
+
+      .experiences{
+
+      }
+
+      .skills{
+        height: 550px;
+      }
+
+      .skillsSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        padding-bottom: 30px;
+      }
+
+      .skills_images{
+        float: left;
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        opacity: 0.4;
+      }
+
+      .skills_images:hover{
+        transition: 2s linear;
+        opacity: 1;
+      }
+
+      .Contact{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 450px;
+        text-align: center;
+        background-color: rgb(193, 137, 137);
+      }
+
+      .Contact_details{
+        margin: 0 120px;
+        height: 100%;
+        width: 85%;
+      }
+
+      .Social_media{
+        padding-left: 350px;
+      }
+
+      .Social_mediaIcons{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px 15px 0 15px;
+        }
+
+      #hire_profile{
+        width: 350px;
+        height: 350px;
+        float: left;
+        filter: grayscale(100%);
+        }
+
+        #motivational_text{
+          font-size: 25px;
+          margin: 0px 105px;
+          font-family: 'Roboto Slab', serif;
+          font-weight: 300;
+          line-height: 25px;
+        }
+
+        #Contact_details{
+          height: 100px;
+          width: 250px;
+          font-size: 25px;
+          margin: 5px 0;
+          text-align: center;
+          font-family: 'Shadows Into Light', cursive;
+          font-weight: 200;
+        }
+}
