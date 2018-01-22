@@ -29,14 +29,14 @@
 
 .navbar li a{
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
 .navbar li a:active{
   background-color: rgb(53, 56, 61)
-  color:black;
+  color:white;
 }
 
 .navbar li a:hover{
@@ -237,7 +237,7 @@
 and (max-device-width: 480px){
 .navbar{
   margin: 0;
-  right: 82.5%;
+  left: 82.5%;
   padding: 0;
 }
 
