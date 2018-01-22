@@ -29,14 +29,14 @@
 
 .navbar li a{
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
 .navbar li a:active{
   background-color: rgb(53, 56, 61)
-  color:white;
+  color:black;
 }
 
 .navbar li a:hover{
