@@ -64,7 +64,7 @@
 .coverText{
   text-align: center;
   font-size: 25px;
-  color: rgba(229, 229, 229, .7);
+  color: rgb(229, 229, 229);
   font-family: 'Poiret One', cursive;
   height: 100%;
   margin: -450px 800px;
